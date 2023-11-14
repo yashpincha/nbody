@@ -36,7 +36,7 @@ numTimesteps = ceil(simulationEndTime / timeStep);
 %{
 The ceil function in MATLAB is used to round each element of an array to the nearest integer greater than or equal to that element. 
 In other words, it rounds numbers up to the next whole number. If a number is already an integer, ceil leaves it unchanged.
-}%
+%}
 
 % Save energies and particle orbits for plotting trails
 savedPositions = zeros(numParticles, 3, numTimesteps + 1);
