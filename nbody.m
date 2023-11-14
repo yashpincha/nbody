@@ -68,7 +68,7 @@ for timestep = 1:numTimesteps
     currentTime = currentTime + timeStep;
     
     % Get energy of the system
-    [KE, PE] = calculateEnergy(positions, velocities, mass, gravitationalConstant);
+    [KE, PE] = getEnergy(positions, velocities, mass, gravitationalConstant);
     
     % Save energies, positions for plotting trail
     savedPositions(:, :, timestep + 1) = positions;
