@@ -12,8 +12,7 @@ The realTimePlotting variable is used to control whether the simulation is visua
 When realTimePlotting is set to 1 (true), the simulation will display the positions of particles and the energy plot dynamically as the 
 simulation evolves through each time step. This can be useful for visualizing the behavior of the simulation in real-time.
 If realTimePlotting is set to 0 (false), the plots will only be displayed at the end of the simulation.
-}%
-
+%}
 
 % Generate Initial Conditions
 rng(42);                   % Set the random number generator seed
